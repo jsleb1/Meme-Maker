@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Simple Meme Maker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    <input type="file" id="file" />
+  </div>
+  <div id="image-container">
+    <canvas width="500" height="500"></canvas>
+    <div>
+      <span class="Line">Top Line:</span><br/>
+      <input id="topLineText" type="text"><br/>
+      <span class="Line">Bottom Line:</span><br/>
+      <input id="bottomLineText" type="text"><br/>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+  <script src="meme.js"></script>
+</body>
+</html>

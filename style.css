@@ -1,0 +1,19 @@
+#image-container {
+    display: flex;
+    }
+
+#file {
+    margin-bottom: 10px;
+    }
+
+.Line {
+    margin-left: 10px;
+    }
+
+#topLineText, #bottomLineText {
+    margin-left: 10px;
+    }
+
+#saveBtn {
+    margin-left: 10px;
+    }
